@@ -37,7 +37,7 @@ jobs:
       - name: Setup NodeJS
         uses: actions/setup-node@v1
         with:
-          node-version: 14.2.0
+          node-version: 14.15.0
       - name: Get PR number
         env:
           PRNUMBER: ${{ steps.filter.outputs.products == 'true' && format(github.event.number) || '0' }}
