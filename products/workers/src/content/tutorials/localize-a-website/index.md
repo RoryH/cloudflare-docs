@@ -171,7 +171,7 @@ To parse the `Accept-Language` header, install the [`accept-language-parser`](ht
 ---
 theme: dark
 ---
-~/i18n-example $ npm i accept-language-parser
+~/i18n-example $ yarn add accept-language-parser
 ```
 
 Once imported into your code, use the package to parse the most relevant language for a client based on `Accept-Language` header, and pass it to `ElementHandler`. Your final code for the project, with an included sample translation for Germany (using Google Translate) looks like this:

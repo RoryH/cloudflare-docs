@@ -21,7 +21,7 @@ Begin by installing `lerna`, and creating a new project in the folder `workers-m
 ---
 header: Install lerna and init a new project
 ---
-$ npm install -g lerna
+$ yarn global add lerna
 $ mkdir workers-monorepo && cd workers-monorepo
 $ lerna init
 ```
@@ -128,7 +128,7 @@ header: Publish packages using lerna run
 ---
 ~/workers-monorepo $ lerna run publish
 
-lerna info Executing command in 2 packages: "npm run publish"
+lerna info Executing command in 2 packages: "yarn publish"
 lerna info run Ran npm script "publish" in "public-api" in 4.8s:
 
 > public-api@1.0.0 publish /workers-monorepo/packages/public-api

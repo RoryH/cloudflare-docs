@@ -20,15 +20,15 @@ Cloudflare Workers provides a [serverless](https://www.cloudflare.com/learning/s
 
 ## Installing the Workers CLI
 
-To install [`wrangler`](https://github.com/cloudflare/wrangler), ensure you have [`npm` installed](https://www.npmjs.com/get-npm), preferably using a Node version manager like [Volta](https://volta.sh/) or [nvm](https://github.com/nvm-sh/nvm) to avoid permission issues, then run:
-
-```sh
-$ npm install -g @cloudflare/wrangler
-```
-or install with yarn:
+To install [`wrangler`](https://github.com/cloudflare/wrangler), ensure you have [`yarn` installed](https://classic.yarnpkg.com/en/docs/install), preferably using a Node version manager like [Volta](https://volta.sh/) or [nvm](https://github.com/nvm-sh/nvm) to avoid permission issues, then run:
 
 ```sh
 $ yarn global add @cloudflare/wrangler
+```
+or install with npm:
+
+```sh
+$ npm i -g @cloudflare/wrangler
 ```
 
 Read more about [installing `wrangler`](/cli-wrangler/install-update).

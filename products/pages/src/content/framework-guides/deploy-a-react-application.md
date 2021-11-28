@@ -39,7 +39,7 @@ Deploy your site to Pages by logging into the [Cloudflare dashboard](https://das
 | Configuration option | Value           |
 | -------------------- | --------------- |
 | Production branch    | `main`          |
-| Build command        | `npm run build` |
+| Build command        | `yarn build` |
 | Build directory      | `build`         |
 
 </TableLayout>

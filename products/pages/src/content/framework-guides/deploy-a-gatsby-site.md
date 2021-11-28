@@ -13,7 +13,7 @@ Gatsby is an open-source React framework for creating websites and apps. In this
 Install the `gatsby` CLI by running the following command in your terminal:
 
 ```sh
-$ npm install -g gatsby-cli
+$ yarn global add gatsby-cli
 ```
 
 ## Creating a new project

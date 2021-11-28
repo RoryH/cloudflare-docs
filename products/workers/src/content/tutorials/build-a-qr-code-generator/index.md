@@ -137,7 +137,7 @@ All projects deployed to Cloudflare Workers support NPM packages. This support m
 ---
 header: Installing the qr-image package
 ---
-$ npm install --save qr-image
+$ yarn add --save qr-image
 ```
 
 To use the `qr-image` package, configure the `type` to `"webpack"`. This instructs Wrangler to use [Webpack](/cli-wrangler/webpack) to package your project for deployment. (Learn more about [`type` configuration](/cli-wrangler/configuration).)

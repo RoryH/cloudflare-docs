@@ -19,10 +19,10 @@ You will use [`SvelteKit`](https://kit.svelte.dev/), the official Svelte framewo
 
 ## Setting up a new project
 
-Create a new project by running the [`npm init`](https://docs.npmjs.com/cli/v6/commands/npm-init) command in your terminal, giving it a title:
+Create a new project by running the [`yarn init`](https://classic.yarnpkg.com/en/docs/cli/init) command in your terminal, giving it a title:
 
 ```sh
-$ npm init svelte@next my-svelte-app
+$ yarn init svelte@next my-svelte-app
 $ cd my-svelte-app
 ```
 
@@ -61,7 +61,7 @@ Select the new GitHub repository that you created and, in the **Set up builds an
 | Configuration option  | Value              |
 | --------------------- | ------------------ |
 | Production branch     | `main`             |
-| Build command         | `npm run build`    |
+| Build command         | `yarn build`    |
 | Build directory       | `build`            |
 | Environment Variables | `NODE_VERSION: 14` |
 
@@ -82,7 +82,7 @@ By default, SvelteKit prepares our project with the assumption that it will depl
 First, install the [`@sveltejs/adapter-static`](https://www.npmjs.com/package/@sveltejs/adapter-static) package:
 
 ```sh
-$ npm install @sveltejs/adapter-static@next --save-dev
+$ yarn add @sveltejs/adapter-static@next --save-dev
 ```
 
 Then, in the `svelte.config.js` file, update the adapter selection:

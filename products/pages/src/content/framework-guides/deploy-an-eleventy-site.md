@@ -13,7 +13,7 @@ import TutorialsBeforeYouStart from "../_partials/_tutorials-before-you-start.md
 Install the `eleventy` CLI by running the following command in your terminal:
 
 ```sh
-$ npm install -g @11ty/eleventy
+$ yarn global add @11ty/eleventy
 ```
 
 ## Creating a new project
@@ -23,7 +23,7 @@ There are a lot of [starter projects](https://www.11ty.dev/docs/starter/) availa
 ```sh
 $ git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
 $ cd my-blog-name
-$ npm install
+$ yarn install
 ```
 
 <TutorialsBeforeYouStart/>

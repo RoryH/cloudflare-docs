@@ -63,7 +63,7 @@ Select the new GitHub repository that you created and, in the **Set up builds an
 | Configuration option | Value                            |
 | -------------------- | -------------------------------- |
 | Production branch    | `main`                           |
-| Build command        | `npm run build -- -c production` |
+| Build command        | `yarn build -- -c production` |
 | Build directory      | `dist/my-angular-app`            |
 
 </TableLayout>

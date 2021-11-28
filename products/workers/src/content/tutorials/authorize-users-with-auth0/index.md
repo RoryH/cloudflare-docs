@@ -520,7 +520,7 @@ To begin, install the NPM package [`cookie`](https://www.npmjs.com/package/cooki
 ---
 header: Install cookie package
 ---
-$ cd workers-site && npm install cookie
+$ cd workers-site && yarn add cookie
 ```
 
 In `workers-site/auth0.js`, you can begin to write the contents of the `verify` function. Start by parsing the `Cookie` header, looking for your `cookieKey` as defined earlier in the tutorial:

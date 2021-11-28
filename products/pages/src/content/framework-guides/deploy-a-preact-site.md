@@ -13,10 +13,10 @@ You will use [`wmr`](https://github.com/preactjs/wmr), an all-in-one development
 
 ## Setting up a new project
 
-Create a new project by running the [`npm init`](https://docs.npmjs.com/cli/v6/commands/npm-init) command in your terminal, giving it a title:
+Create a new project by running the [`yarn init`](https://classic.yarnpkg.com/en/docs/cli/init) command in your terminal, giving it a title:
 
 ```sh
-$ npm init wmr your-project-name
+$ yarn init wmr your-project-name
 $ cd your-project-name
 ```
 
@@ -53,7 +53,7 @@ Select the new GitHub repository that you created and, in the **Set up builds an
 | Configuration option | Value           |
 | -------------------- | --------------- |
 | Production branch    | `main`          |
-| Build command        | `npm run build` |
+| Build command        | `yarn build` |
 | Build directory      | `dist`          |
 
 </TableLayout>

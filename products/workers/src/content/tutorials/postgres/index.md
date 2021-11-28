@@ -60,7 +60,7 @@ Begin by installing `postgrest-js`:
 ---
 header: Installing postgrest-js
 ---
-$ npm install @supabase/postgrest-js
+$ yarn add @supabase/postgrest-js
 ```
 
 Before beginning to work with `postgrest-js` in your application, you must patch `cross-fetch`, the internal library that `postgrest-js` uses for making HTTP requests, with Workers' built-in `fetch` API. Do this by creating a custom Webpack configuration and updating the `wrangler.toml` file to use it. Create a `webpack.config.js` with the below configuration:
@@ -178,7 +178,7 @@ To build this, you will integrate [`itty-router`](https://github.com/kwhitley/it
 ---
 header: Install itty-router
 ---
-$ npm install itty-router
+$ yarn add itty-router
 ```
 
 With `itty-router` installed, import the package into `index.js`, and instantiate a new router at the top of your serverless function:

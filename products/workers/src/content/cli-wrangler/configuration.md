@@ -403,7 +403,7 @@ Usage:
 
 ```toml
 [build]
-command = "npm install && npm run build"
+command = "yarn install && yarn build"
 
 [build.upload]
 format = "service-worker"
@@ -478,7 +478,7 @@ To create a Workers project using Wrangler and Modules, add a `[build]` section:
 
 ```toml
 [build]
-command = "npm install && npm run build"
+command = "yarn install && yarn build"
 
 [build.upload]
 format = "modules"

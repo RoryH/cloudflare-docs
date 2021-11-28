@@ -82,13 +82,13 @@ bucket = "./build"
 entry-point = "workers-site"
 ```
 
-With a configured `wrangler.toml` file, it is time to build your project and publish it to Workers. Run `npm run build` to tell `create-react-app` to build your site, and `wrangler publish` to deploy it to Workers:
+With a configured `wrangler.toml` file, it is time to build your project and publish it to Workers. Run `yarn build` to tell `create-react-app` to build your site, and `wrangler publish` to deploy it to Workers:
 
 ```sh
 ---
 header: Build and publish your application
 ---
-$ npm run build
+$ yarn build
 $ wrangler publish
 ```
 

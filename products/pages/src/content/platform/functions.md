@@ -339,7 +339,7 @@ You can run your entire application locally with [Wrangler](https://github.com/c
 
 ```sh
 # Install wrangler v2 beta
-$ npm install wrangler@beta
+$ yarn add wrangler@beta
 
 # Show help message
 $ npx wrangler pages dev --help

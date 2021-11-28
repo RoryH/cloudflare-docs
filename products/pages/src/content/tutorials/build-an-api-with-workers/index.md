@@ -37,7 +37,7 @@ While you can manually parse incoming URLs, it is much easier to use a routing l
 ---
 header: Installing itty-router
 ---
-$ npm install itty-router
+$ yarn add itty-router
 ---
 ```
 
@@ -255,7 +255,7 @@ header: "Creating a new React application"
 ---
 $ npx create-react-app blog-frontend
 $ cd blog-frontend
-$ npm start
+$ yarn start
 ```
 
 Start up the app locally, and clear out the contents of `App.js`:

@@ -188,7 +188,7 @@ Please see [go-tus](https://github.com/eventials/go-tus) on GitHub for functiona
 Install tus-js-client
 
 ```bash
-npm install tus-js-client
+yarn add tus-js-client
 ```
 
 Set up an index.js and configure:

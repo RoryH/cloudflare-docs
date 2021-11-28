@@ -10,7 +10,7 @@ In this tutorial, you will build a blog application using Nuxt.js and Sanity.io 
 
 ## Prerequisites
 
-- A recent version of [NPM](https://www.npmjs.com/get-npm) on your computer
+- A recent version of [YARN](https://classic.yarnpkg.com/en/docs/install) on your computer
 - A [Sanity.io](https://www.sanity.io) account
 
 ## Creating a new Sanity project
@@ -25,7 +25,7 @@ Create your new Sanity project by installing the `@sanity/cli` client from NPM, 
 ---
 header: Installing the Sanity client and creating a new project
 ---
-$ npm install -g @sanity/cli && sanity init
+$ yarn global add @sanity/cli && sanity init
 ```
 
 When you create a Sanity project, you can choose to use one of their pre-defined schemas. Schemas describe the shape of your data in your Sanity dataset -- if you were to start a brand new project, you may choose to initialize the schema from scratch, but for now, select the **Blog** schema.
@@ -81,7 +81,7 @@ $ npx create-nuxt-app blog
 
 Importantly, ensure that you select a rendering mode of **Universal (SSR / SSG)** and a deployment target of **Static (Static/JAMStack hosting)**, while going through the setup process.
 
-After you have completed your project, `cd` into your new project, and start a local development server by running `yarn dev` (or, if you chose NPM as your package manager, `npm run dev`):
+After you have completed your project, `cd` into your new project, and start a local development server by running `yarn dev` (or, if you chose NPM as your package manager, `yarn dev`):
 
 ```sh
 ---

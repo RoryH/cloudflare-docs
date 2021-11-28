@@ -1,5 +1,5 @@
 ```
-npm i
-npm run bootstrap
-npm run build
+yarn i
+yarn bootstrap
+yarn build
 ```

@@ -362,12 +362,12 @@ gc .\Cloudflare_CA.crt | ac C:\Python37\Lib\site-packages\pip\_vendor\certifi\ca
  git config --global http.sslcainfo [PATH_TO_CLOUDFLARE_CERT]
  ```
 
-### npm
+### yarn
 
 The command below will set the `cafile` configuration to use the Cloudflare certificate. Make sure to use the certificate in the [`.pem`](../../../static/documentation/connections/Cloudflare_CA.pem) file type.
 
  ```
- npm config set cafile [PATH_TO_CLOUDFLARE_CERT]
+ yarn config set cafile [PATH_TO_CLOUDFLARE_CERT]
  ```
 
 ### Google Cloud SDK

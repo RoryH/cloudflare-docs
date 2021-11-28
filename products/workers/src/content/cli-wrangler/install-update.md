@@ -7,10 +7,10 @@ pcx-content-type: how-to
 
 ## Install
 
-### Install with `npm`
+### Install with `yarn`
 
 ```sh
-$ npm i @cloudflare/wrangler -g
+$ yarn global add @cloudflare/wrangler
 ```
 
 <Aside type="note" header="EACCESS error">
@@ -63,10 +63,10 @@ $ cargo install wrangler --features sys-openssl
 
 To update [Wrangler](https://github.com/cloudflare/wrangler), run one of the following:
 
-### Update with `npm`
+### Update with `yarn`
 
 ```sh
-$ npm update -g @cloudflare/wrangler
+$ yarn global upgrade @cloudflare/wrangler
 ```
 
 ### Update with `cargo`

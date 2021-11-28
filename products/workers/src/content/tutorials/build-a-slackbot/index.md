@@ -272,7 +272,7 @@ To begin, parse the incoming data from a Slack message inside of the `lookup` ha
 ---
 header: Install the qs package
 ---
-$ npm install --save qs
+$ yarn --save qs
 ```
 
 In `src/handlers/lookup.js`, import `qs`, and use it to parse the `request` body, and get the `text` value from it:
